@@ -3,7 +3,7 @@ toc: true
 layout: post
 image: images/powerofless250.png
 description: 3 steps for doing more.
-categories: [Teck Lead]
+categories: [Tech Lead]
 title: Do more with less
 ---
 
