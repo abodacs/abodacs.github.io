@@ -33,7 +33,11 @@ $dt-green-light: rgb(172, 229, 145);
 // for Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
 
 .input_area pre, .input_area div {
+<<<<<<< HEAD
     margin-bottom:2rem !important;
+=======
+    margin-bottom:1.0rem !important;
+>>>>>>> upstream/master
     margin-top:1.5rem !important;
     padding-bottom:0 !important;
     padding-top:0 !important;
@@ -42,11 +46,19 @@ $dt-green-light: rgb(172, 229, 145);
     text-rendering: optimizeLegibility;
     font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: 100%;
 }
 .output_area pre, .output_area div {
     margin-bottom:1rem !important;
     margin-top:1rem !important;
+=======
+    font-size: 105%;
+}
+.output_area pre, .output_area div {
+    margin-bottom:1rem !important;
+    margin-top:0rem !important;
+>>>>>>> upstream/master
     padding-bottom:0 !important;
     padding-top:0 !important;
 }
@@ -56,6 +68,10 @@ $dt-green-light: rgb(172, 229, 145);
 .output_area pre {
     border-left: 1px solid grey;
     margin-left: 1rem !important;
+<<<<<<< HEAD
+=======
+    font-size: 16px;
+>>>>>>> upstream/master
 }
 
 .code_cell table { width: auto; }
@@ -76,6 +92,10 @@ $dt-green-light: rgb(172, 229, 145);
     pre, code {
      background: $dt-code-cell-background;
      color: $dt-gray-light;
+<<<<<<< HEAD
+=======
+     font-size: 110%;
+>>>>>>> upstream/master
     }
    
     .hll,
@@ -145,10 +165,20 @@ $dt-green-light: rgb(172, 229, 145);
     .ch,
     .cm,
     .cpf,
+<<<<<<< HEAD
     .c1,
     .cs {
       color: $dt-blue;
     }
+=======
+    .cs {
+      color: $dt-blue;
+    }
+
+    .c1 {
+      color: gray;
+    }
+>>>>>>> upstream/master
   
     .kd,
     .kt,
@@ -211,3 +241,10 @@ $dt-green-light: rgb(172, 229, 145);
       color: $dt-red;
     }
 }
+<<<<<<< HEAD
+=======
+
+p code{
+  font-size: 19px;
+}
+>>>>>>> upstream/master

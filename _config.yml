@@ -85,6 +85,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
@@ -106,3 +108,11 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+# to limit size of xml as it can grow quite large.
+feed:
+  posts_limit: 5 #default posts_limit: 10
+  excerpt_only: true
+  
+exclude:
+  - settings.ini

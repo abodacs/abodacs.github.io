@@ -3,7 +3,10 @@ toc: true
 layout: post
 description: A minimal example of using markdown with fastpages.
 categories: [markdown]
+<<<<<<< HEAD
 hide: true
+=======
+>>>>>>> upstream/master
 title: An Example Markdown Post
 ---
 # Example Markdown Post
@@ -91,6 +94,12 @@ key: value
 | A thing | Another thing |
 
 
+<<<<<<< HEAD
+=======
+## Tweetcards
+
+{% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
+>>>>>>> upstream/master
 
 
 ## Footnotes
